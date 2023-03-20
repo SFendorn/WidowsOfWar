@@ -91,7 +91,7 @@
       <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="vlandia_widow_a_t5" name="{=vlandia_widow_a_t5}Knightess" level="26"
+  <NPCCharacter id="vlandia_widow_a_t5" name="{=vlandia_widow_a_t5}Phalanx" level="26"
   default_group="Cavalry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
   skill_template="SkillSet.vlandia_widow_a_t5_template">
     <face><face_key_template value="BodyProperty.body_vlandia_widow" /></face>
@@ -172,7 +172,7 @@
       <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="vlandia_widow_b_t5" name="{=vlandia_widow_b_t5}Blackguard" level="26"
+  <NPCCharacter id="vlandia_widow_b_t5" name="{=vlandia_widow_b_t5}Knightess" level="26"
   default_group="Cavalry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
   skill_template="SkillSet.vlandia_widow_b_t5_template" upgrade_requires="ItemCategory.war_horse">
     <face><face_key_template value="BodyProperty.body_vlandia_widow" /></face>
@@ -194,7 +194,7 @@
       <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="vlandia_widow_b_t6" name="{=vlandia_widow_b_t6}Elite Blackguard" level="31"
+  <NPCCharacter id="vlandia_widow_b_t6" name="{=vlandia_widow_b_t6}Paladin" level="31"
   default_group="Cavalry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
   skill_template="SkillSet.vlandia_widow_b_t6_template" upgrade_requires="ItemCategory.war_horse">
     <face><face_key_template value="BodyProperty.body_vlandia_widow" /></face>
