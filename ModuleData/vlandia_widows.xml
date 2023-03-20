@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+<!-- villager -->
+  <NPCCharacter id="vlandia_widow_a_t1" name="{=vlandia_widow_a_t1}Vlandian Widow" level="6"
+  default_group="Infantry" occupation="Villager" culture="Culture.mercenary_widows" is_basic_troop="true" is_female="true" 
+  skill_template="SkillSet.widow_a_t1_template">
+    <face><face_key_template value="BodyProperty.body_vlandia_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandia_widow_a_t2" />
+      <upgrade_target id="NPCCharacter.vlandia_widow_b_t2" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="looter" civilian="true" />
+      <EquipmentSet id="looter" />
+    </Equipments>
+  </NPCCharacter>
+<!-- a -->
+  <NPCCharacter id="vlandia_widow_a_t2" name="{=vlandia_widow_a_t2}Woman-At-Arms" level="11"
+  default_group="Infantry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
+  skill_template="SkillSet.vlandia_widow_a_t2_template">
+    <face><face_key_template value="BodyProperty.body_vlandia_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandia_widow_a_t3" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_mace_1_t2" />
+        <equipment slot="Item1" id="Item.simple_pike_t2" />
+        <equipment slot="Head" id="Item.merchants_hat" />
+        <equipment slot="Body" id="Item.stitched_leather_vest" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.vlandia_mace_1_t2" />
+        <equipment slot="Item1" id="Item.military_fork_pike_t3" />
+        <equipment slot="Head" id="Item.leather_cap" />
+        <equipment slot="Body" id="Item.leather_coat" />
+        <equipment slot="Leg" id="Item.folded_town_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandia_widow_a_t3" name="{=vlandia_widow_a_t3}Squiress" level="16"
+  default_group="Infantry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
+  skill_template="SkillSet.vlandia_widow_a_t3_template">
+    <face><face_key_template value="BodyProperty.body_vlandia_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandia_widow_a_t4" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_mace_2_t2" />
+        <equipment slot="Item1" id="Item.old_kite_shield" />
+        <equipment slot="Item2" id="Item.fine_pike_t4" />
+        <equipment slot="Head" id="Item.imperial_leather_coif" />
+        <equipment slot="Cape" id="Item.female_hood" />
+        <equipment slot="Body" id="Item.sleeveless_padded_coat" />
+        <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+        <equipment slot="Leg" id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
+        <equipment slot="Item1" id="Item.old_kite_shield" />
+        <equipment slot="Item2" id="Item.fine_pike_t4" />
+        <equipment slot="Head" id="Item.arming_coif" />
+        <equipment slot="Cape" id="Item.hood" />
+        <equipment slot="Body" id="Item.padded_coat" />
+        <equipment slot="Leg" id="Item.steppe_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandia_widow_a_t4" name="{=vlandia_widow_a_t4}Handmaiden" level="21"
+  default_group="Infantry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
+  skill_template="SkillSet.vlandia_widow_a_t4_template">
+    <face><face_key_template value="BodyProperty.body_vlandia_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandia_widow_a_t5" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.vlandia_mace_2_t4" />
+        <equipment slot="Item1" id="Item.reinforced_kite_shield" />
+        <equipment slot="Item2" id="Item.vlandia_pike_1_t5" />
+        <equipment slot="Head" id="Item.segmented_skullcap_over_padded_cloth" />
+        <equipment slot="Cape" id="Item.hood" />
+        <equipment slot="Body" id="Item.mail_shirt" />
+        <equipment slot="Gloves" id="Item.reinforced_padded_mitten" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandia_widow_a_t5" name="{=vlandia_widow_a_t5}Knightess" level="26"
+  default_group="Cavalry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
+  skill_template="SkillSet.vlandia_widow_a_t5_template">
+    <face><face_key_template value="BodyProperty.body_vlandia_widow" /></face>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.empire_mace_5_t5" />
+        <equipment slot="Item1" id="Item.stronger_reinforced_kite_shield" />
+        <equipment slot="Item2" id="Item.vlandia_pike_1_t5" />
+        <equipment slot="Head" id="Item.vlandian_faceguard_helmet_a" />
+        <equipment slot="Cape" id="Item.pauldron_with_cape" />
+        <equipment slot="Body" id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+<!-- b -->
+  <NPCCharacter id="vlandia_widow_b_t2" name="{=vlandia_widow_b_t2}Burglar" level="11"
+  default_group="Infantry" occupation="Bandit" culture="Culture.widows" is_basic_troop="true" is_female="true" 
+  skill_template="SkillSet.vlandia_widow_b_t2_template">
+    <face><face_key_template value="BodyProperty.body_vlandia_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandia_widow_b_t3" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.falchion_sword_t2" />
+        <equipment slot="Item2" id="Item.old_kite_shield" />
+        <equipment slot="Body" id="Item.studded_fur_armor" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandia_widow_b_t3" name="{=vlandia_widow_b_t3}Smuggler" level="16"
+  default_group="Cavalry" occupation="Bandit" culture="Culture.widows" is_female="true" 
+  skill_template="SkillSet.vlandia_widow_b_t3_template" upgrade_requires="ItemCategory.horse">
+    <face><face_key_template value="BodyProperty.body_vlandia_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandia_widow_b_t4" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.empire_lance_1_t3" />
+        <equipment slot="Item1" id="Item.small_heater_shield" />
+        <equipment slot="Item2" id="Item.vlandia_mace_1_t2" />
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.patched_gambeson" />
+        <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+        <equipment slot="Leg" id="Item.rough_tied_boots" />
+        <equipment slot="Horse" id="Item.vlandia_horse" />
+        <equipment slot="HorseHarness" id="Item.bandit_saddle_highland" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandia_widow_b_t4" name="{=vlandia_widow_b_t4}Highwaywoman" level="21"
+  default_group="Cavalry" occupation="Bandit" culture="Culture.widows" is_female="true" 
+  skill_template="SkillSet.vlandia_widow_b_t4_template">
+    <face><face_key_template value="BodyProperty.body_vlandia_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandia_widow_b_t5" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.vlandia_lance_1_t3" />
+        <equipment slot="Item1" id="Item.small_flat_heater_shield" />
+        <equipment slot="Item2" id="Item.khuzait_mace_3_t4" />
+        <equipment slot="Head" id="Item.kettle_helmet_over_arming_coif" />
+        <equipment slot="Body" id="Item.empire_horseman_armor" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+        <equipment slot="Leg" id="Item.turndown_leather_boots" />
+        <equipment slot="Horse" id="Item.vlandia_horse" />
+        <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandia_widow_b_t5" name="{=vlandia_widow_b_t5}Blackguard" level="26"
+  default_group="Cavalry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
+  skill_template="SkillSet.vlandia_widow_b_t5_template" upgrade_requires="ItemCategory.war_horse">
+    <face><face_key_template value="BodyProperty.body_vlandia_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandia_widow_b_t6" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.vlandia_lance_2_t4" />
+        <equipment slot="Item1" id="Item.tall_heater_shield" />
+        <equipment slot="Item2" id="Item.empire_mace_5_t5" />
+        <equipment slot="Head" id="Item.full_helm_over_cloth_headwrap" />
+        <equipment slot="Body" id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+        <equipment slot="Leg" id="Item.mail_chausses" />
+        <equipment slot="Horse" id="Item.t2_vlandia_horse" />
+        <equipment slot="HorseHarness" id="Item.chain_barding" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="vlandia_widow_b_t6" name="{=vlandia_widow_b_t6}Elite Blackguard" level="31"
+  default_group="Cavalry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
+  skill_template="SkillSet.vlandia_widow_b_t6_template" upgrade_requires="ItemCategory.war_horse">
+    <face><face_key_template value="BodyProperty.body_vlandia_widow" /></face>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.vlandia_lance_2_t4" />
+        <equipment slot="Item1" id="Item.tall_heater_shield" />
+        <equipment slot="Item2" id="Item.empire_mace_5_t5" />
+        <equipment slot="Head" id="Item.full_helm_over_cloth_headwrap" />
+        <equipment slot="Cape" id="Item.empire_cape_a" />
+        <equipment slot="Body" id="Item.sturgian_fortified_armor" />
+        <equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+        <equipment slot="Leg" id="Item.mail_chausses" />
+        <equipment slot="Horse" id="Item.t3_vlandia_horse" />
+        <equipment slot="HorseHarness" id="Item.chain_barding" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>

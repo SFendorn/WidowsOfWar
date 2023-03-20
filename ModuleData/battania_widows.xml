@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+<!-- villager -->
+  <NPCCharacter id="battania_widow_a_t1" name="{=battania_widow_a_t1}Battanian Widow" level="6"
+  default_group="Infantry" occupation="Villager" culture="Culture.mercenary_widows" is_basic_troop="true" is_female="true" 
+  skill_template="SkillSet.widow_a_t1_template">
+    <face><face_key_template value="BodyProperty.body_battania_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.battania_widow_a_t2" />
+      <upgrade_target id="NPCCharacter.battania_widow_b_t2" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="looter" civilian="true" />
+      <EquipmentSet id="looter" />
+    </Equipments>
+  </NPCCharacter>
+<!-- a -->
+  <NPCCharacter id="battania_widow_a_t2" name="{=battania_widow_a_t2}Forester" level="11"
+  default_group="Ranged" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
+  skill_template="SkillSet.battania_widow_a_t2_template">
+    <face><face_key_template value="BodyProperty.body_battania_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.battania_widow_a_t3" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.hunting_bow" />
+        <equipment slot="Item1" id="Item.default_arrows" />
+        <equipment slot="Item2" id="Item.peasant_hatchet_1_t1" />
+        <equipment slot="Head" id="Item.northern_fur_cap" />
+        <equipment slot="Cape" id="Item.battania_cloak" />
+        <equipment slot="Body" id="Item.layered_leather_tunic" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.mountain_hunting_bow" />
+        <equipment slot="Item1" id="Item.default_arrows" />
+        <equipment slot="Item2" id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Head" id="Item.nordic_fur_cap" />
+        <equipment slot="Body" id="Item.battania_woodland_outfit" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="battania_widow_a_t3" name="{=battania_widow_a_t3}Pathfinder" level="16"
+  default_group="HorseArcher" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
+  skill_template="SkillSet.battania_widow_a_t3_template"  upgrade_requires="ItemCategory.horse">
+    <face><face_key_template value="BodyProperty.body_battania_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.battania_widow_a_t4" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.nordic_shortbow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.empire_sword_1_t2" />
+        <equipment slot="Item3" id="Item.leather_bound_kite_shield" />
+        <equipment slot="Head" id="Item.laced_coif" />
+        <equipment slot="Body" id="Item.padded_cloth_with_strips" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+        <equipment slot="Horse" id="Item.battania_horse" />
+        <equipment slot="HorseHarness" id="Item.light_harness" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="battania_widow_a_t4" name="{=battania_widow_a_t4}Waywatcher" level="21"
+  default_group="HorseArcher" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
+  skill_template="SkillSet.battania_widow_a_t4_template">
+    <face><face_key_template value="BodyProperty.body_battania_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.battania_widow_a_t5" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.composite_bow" />
+        <equipment slot="Item1" id="Item.bodkin_arrows_b" />
+        <equipment slot="Item2" id="Item.light_horsemans_kite_shield" />
+        <equipment slot="Item3" id="Item.empire_sword_3_t3" />
+        <equipment slot="Head" id="Item.helmet_with_faceguard" />
+        <equipment slot="Cape" id="Item.battania_shoulder_strap_cloak" />
+        <equipment slot="Body" id="Item.eastern_studded_leather" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+        <equipment slot="Horse" id="Item.battania_horse" />
+        <equipment slot="HorseHarness" id="Item.stripped_leather_harness" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="battania_widow_a_t5" name="{=battania_widow_a_t5}Stalker" level="26"
+  default_group="HorseArcher" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
+  skill_template="SkillSet.battania_widow_a_t5_template"  upgrade_requires="ItemCategory.war_horse">
+    <face><face_key_template value="BodyProperty.body_battania_widow" /></face>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_heavy_bow" />
+        <equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item2" id="Item.heavy_horsemans_kite_shield" />
+        <equipment slot="Item3" id="Item.empire_sword_4_t4" />
+        <equipment slot="Head" id="Item.plumed_helmet" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+        <equipment slot="Body" id="Item.battania_brass_plate_armor" />
+        <equipment slot="Gloves" id="Item.battania_noble_bracers" />
+        <equipment slot="Leg" id="Item.battania_woodland_boots" />
+        <equipment slot="Horse" id="Item.t2_battania_horse" />
+        <equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+<!-- b -->
+  <NPCCharacter id="battania_widow_b_t2" name="{=battania_widow_b_t2}Rustler" level="11"
+  default_group="Ranged" occupation="Bandit" culture="Culture.widows" is_basic_troop="true" is_female="true" 
+  skill_template="SkillSet.battania_widow_b_t2_template">
+    <face><face_key_template value="BodyProperty.body_battania_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.battania_widow_b_t3" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.mountain_hunting_bow" />
+        <equipment slot="Item1" id="Item.default_arrows" />
+        <equipment slot="Item2" id="Item.western_spear_1_t2" />
+        <equipment slot="Head" id="Item.pilgrim_hood" />
+        <equipment slot="Body" id="Item.bandit_fur_a" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.hunting_bow" />
+        <equipment slot="Item1" id="Item.default_arrows" />
+        <equipment slot="Item2" id="Item.northern_spear_1_t2" />
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.torn_bandit_clothes" />
+        <equipment slot="Gloves" id="Item.armwraps" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="battania_widow_b_t3" name="{=battania_widow_b_t3}Poacher" level="16"
+  default_group="Ranged" occupation="Bandit" culture="Culture.widows" is_female="true" 
+  skill_template="SkillSet.battania_widow_b_t3_template">
+    <face><face_key_template value="BodyProperty.body_battania_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.battania_widow_b_t4" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.glen_ranger_bow" />
+        <equipment slot="Item1" id="Item.western_spear_2_t2" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item3" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.northern_fur_cap" />
+        <equipment slot="Cape" id="Item.battania_woodland_cloak" />
+        <equipment slot="Body" id="Item.battania_woodland_outfit" />
+        <equipment slot="Gloves" id="Item.guarded_armwraps" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.highland_ranger_bow" />
+        <equipment slot="Item1" id="Item.northern_spear_1_t2" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item3" id="Item.barbed_arrows" />
+        <equipment slot="Head" id="Item.aserai_civil_f_cape" />
+        <equipment slot="Cape" id="Item.battania_cloak" />
+        <equipment slot="Body" id="Item.battania_woodland_outfit" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+        <equipment slot="Leg" id="Item.battania_woodland_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="battania_widow_b_t4" name="{=battania_widow_b_t4}Trapper" level="21"
+  default_group="Ranged" occupation="Bandit" culture="Culture.widows" is_female="true" 
+  skill_template="SkillSet.battania_widow_b_t4_template">
+    <face><face_key_template value="BodyProperty.body_battania_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.battania_widow_b_t5" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.lowland_longbow" />
+        <equipment slot="Item1" id="Item.highland_spear_3_t3" />
+        <equipment slot="Item2" id="Item.range_arrows" />
+        <equipment slot="Item3" id="Item.range_arrows" />
+        <equipment slot="Head" id="Item.wolfhead" />
+        <equipment slot="Cape" id="Item.wolf_shoulder" />
+        <equipment slot="Body" id="Item.veteran_mercenary_armor" />
+        <equipment slot="Gloves" id="Item.highland_gloves" />
+        <equipment slot="Leg" id="Item.battania_fur_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="battania_widow_b_t5" name="{=battania_widow_b_t5}Amazon" level="26"
+  default_group="Ranged" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
+  skill_template="SkillSet.battania_widow_b_t5_template">
+    <face><face_key_template value="BodyProperty.body_battania_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.battania_widow_b_t6" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.woodland_yew_bow" />
+        <equipment slot="Item1" id="Item.highland_spear_3_t3" />
+        <equipment slot="Item2" id="Item.steppe_arrows" />
+        <equipment slot="Item3" id="Item.steppe_arrows" />
+        <equipment slot="Head" id="Item.battania_earmuff_helmet_d_brnz" />
+        <equipment slot="Cape" id="Item.battania_shoulder_furr" />
+        <equipment slot="Body" id="Item.battanian_scale_armor_a" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+        <equipment slot="Leg" id="Item.mail_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="battania_widow_b_t6" name="{=battania_widow_b_t6}Matriarch" level="31"
+  default_group="Ranged" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
+  skill_template="SkillSet.battania_widow_b_t6_template">
+    <face><face_key_template value="BodyProperty.body_battania_widow" /></face>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.woodland_longbow" />
+        <equipment slot="Item1" id="Item.highland_spear_3_t3" />
+        <equipment slot="Item2" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+        <equipment slot="Head" id="Item.battanian_crowned_helmet" />
+        <equipment slot="Cape" id="Item.battania_shoulder_furr" />
+        <equipment slot="Body" id="Item.battanian_scale_armor_a" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+        <equipment slot="Leg" id="Item.mail_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>

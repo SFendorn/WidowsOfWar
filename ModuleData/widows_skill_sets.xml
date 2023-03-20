@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SkillSets>
+<!-- copied from bandits.xml looter -->
+  <SkillSet id="widow_a_t1_template">
+    <skill id="Athletics" value="30" />
+    <skill id="Riding" value="0" />
+    <skill id="OneHanded" value="40" />
+    <skill id="TwoHanded" value="20" />
+    <skill id="Polearm" value="30" />
+    <skill id="Bow" value="20" />
+    <skill id="Throwing" value="40" />
+  </SkillSet>
+<!-- Aserai Merc (bow/1h) -->
+  <SkillSet id="aserai_widow_a_t2_template">
+    <skill id="Athletics" value="40" />
+    <skill id="Riding" value="20" />
+    <skill id="OneHanded" value="40" />
+    <skill id="TwoHanded" value="20" />
+    <skill id="Polearm" value="20" />
+    <skill id="Bow" value="40" />
+    <skill id="Crossbow" value="15" />
+    <skill id="Throwing" value="20" />
+  </SkillSet>
+  <SkillSet id="aserai_widow_a_t3_template">
+    <skill id="Athletics" value="70" />
+    <skill id="Riding" value="40" />
+    <skill id="OneHanded" value="70" />
+    <skill id="TwoHanded" value="40" />
+    <skill id="Polearm" value="40" />
+    <skill id="Bow" value="70" />
+    <skill id="Crossbow" value="30" />
+    <skill id="Throwing" value="40" />
+  </SkillSet>
+  <SkillSet id="aserai_widow_a_t4_template">
+    <skill id="Athletics" value="100" />
+    <skill id="Riding" value="60" />
+    <skill id="OneHanded" value="100" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="60" />
+    <skill id="Bow" value="100" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+  <SkillSet id="aserai_widow_a_t5_template">
+    <skill id="Athletics" value="140" />
+    <skill id="Riding" value="60" />
+    <skill id="OneHanded" value="130" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="60" />
+    <skill id="Bow" value="130" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+<!-- Aserai Bandit (throw/pole/ride) -->
+  <SkillSet id="aserai_widow_b_t2_template">
+    <skill id="Athletics" value="40" />
+    <skill id="Riding" value="20" />
+    <skill id="OneHanded" value="20" />
+    <skill id="TwoHanded" value="20" />
+    <skill id="Polearm" value="40" />
+    <skill id="Bow" value="15" />
+    <skill id="Crossbow" value="15" />
+    <skill id="Throwing" value="40" />
+  </SkillSet>
+  <SkillSet id="aserai_widow_b_t3_template">
+    <skill id="Athletics" value="30" />
+    <skill id="Riding" value="70" />
+    <skill id="OneHanded" value="40" />
+    <skill id="TwoHanded" value="40" />
+    <skill id="Polearm" value="70" />
+    <skill id="Bow" value="30" />
+    <skill id="Crossbow" value="30" />
+    <skill id="Throwing" value="70" />
+  </SkillSet>
+  <SkillSet id="aserai_widow_b_t4_template"> <!-- desert_bandits_chief -->
+    <skill id="Athletics" value="80" />
+    <skill id="Riding" value="100" />
+    <skill id="OneHanded" value="60" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="120" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="100" />
+  </SkillSet>
+  <SkillSet id="aserai_widow_b_t5_template"> <!-- aserai_veteran_faris -->
+    <skill id="Athletics" value="80" />
+    <skill id="Riding" value="160" />
+    <skill id="OneHanded" value="80" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="130" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="130" />
+  </SkillSet>
+  <SkillSet id="aserai_widow_b_t6_template"> <!-- aserai_vanguard_faris -->
+    <skill id="Athletics" value="90" />
+    <skill id="Riding" value="200" />
+    <skill id="OneHanded" value="140" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="200" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="170" />
+  </SkillSet>
+<!-- Battania Merc (bow/1h/horse) -->
+  <SkillSet id="battania_widow_a_t2_template">
+    <skill id="Athletics" value="40" />
+    <skill id="Riding" value="20" />
+    <skill id="OneHanded" value="40" />
+    <skill id="TwoHanded" value="20" />
+    <skill id="Polearm" value="20" />
+    <skill id="Bow" value="40" />
+    <skill id="Crossbow" value="15" />
+    <skill id="Throwing" value="20" />
+  </SkillSet>
+  <SkillSet id="battania_widow_a_t3_template">
+    <skill id="Athletics" value="40" />
+    <skill id="Riding" value="70" />
+    <skill id="OneHanded" value="70" />
+    <skill id="TwoHanded" value="40" />
+    <skill id="Polearm" value="40" />
+    <skill id="Bow" value="70" />
+    <skill id="Crossbow" value="30" />
+    <skill id="Throwing" value="40" />
+  </SkillSet>
+  <SkillSet id="battania_widow_a_t4_template"> <!-- steppe_bandits_chief -->
+    <skill id="Athletics" value="60" />
+    <skill id="Riding" value="100" />
+    <skill id="OneHanded" value="110" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="60" />
+    <skill id="Bow" value="100" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+  <SkillSet id="battania_widow_a_t5_template"> <!-- bucellarii -->
+    <skill id="Athletics" value="100" />
+    <skill id="Riding" value="120" />
+    <skill id="OneHanded" value="130" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="60" />
+    <skill id="Bow" value="140" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+<!-- Battania Bandit (bow/pole) -->
+  <SkillSet id="battania_widow_b_t2_template">
+    <skill id="Athletics" value="40" />
+    <skill id="Riding" value="20" />
+    <skill id="OneHanded" value="20" />
+    <skill id="TwoHanded" value="20" />
+    <skill id="Polearm" value="40" />
+    <skill id="Bow" value="40" />
+    <skill id="Crossbow" value="15" />
+    <skill id="Throwing" value="20" />
+  </SkillSet>
+  <SkillSet id="battania_widow_b_t3_template">
+    <skill id="Athletics" value="70" />
+    <skill id="Riding" value="40" />
+    <skill id="OneHanded" value="40" />
+    <skill id="TwoHanded" value="40" />
+    <skill id="Polearm" value="70" />
+    <skill id="Bow" value="70" />
+    <skill id="Crossbow" value="30" />
+    <skill id="Throwing" value="40" />
+  </SkillSet>
+  <SkillSet id="battania_widow_b_t4_template"> <!-- forest_bandits_chief -->
+    <skill id="Athletics" value="110" />
+    <skill id="Riding" value="60" />
+    <skill id="OneHanded" value="60" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="120" />
+    <skill id="Bow" value="120" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+  <SkillSet id="battania_widow_b_t5_template"> <!-- battanian_fian -->
+    <skill id="Athletics" value="130" />
+    <skill id="Riding" value="60" />
+    <skill id="OneHanded" value="60" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="130" />
+    <skill id="Bow" value="160" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+  <SkillSet id="battania_widow_b_t6_template"> <!-- battanian_fian_champion -->
+    <skill id="Athletics" value="170" />
+    <skill id="Riding" value="60" />
+    <skill id="OneHanded" value="90" />
+    <skill id="TwoHanded" value="90" />
+    <skill id="Polearm" value="220" />
+    <skill id="Bow" value="260" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+<!-- Empire Merc (xbow/2h) -->
+  <SkillSet id="empire_widow_a_t2_template">
+    <skill id="Athletics" value="40" />
+    <skill id="Riding" value="20" />
+    <skill id="OneHanded" value="20" />
+    <skill id="TwoHanded" value="40" />
+    <skill id="Polearm" value="20" />
+    <skill id="Bow" value="15" />
+    <skill id="Crossbow" value="40" />
+    <skill id="Throwing" value="20" />
+  </SkillSet>
+  <SkillSet id="empire_widow_a_t3_template">
+    <skill id="Athletics" value="70" />
+    <skill id="Riding" value="40" />
+    <skill id="OneHanded" value="40" />
+    <skill id="TwoHanded" value="70" />
+    <skill id="Polearm" value="40" />
+    <skill id="Bow" value="30" />
+    <skill id="Crossbow" value="70" />
+    <skill id="Throwing" value="40" />
+  </SkillSet>
+  <SkillSet id="empire_widow_a_t4_template">
+    <skill id="Athletics" value="100" />
+    <skill id="Riding" value="60" />
+    <skill id="OneHanded" value="60" />
+    <skill id="TwoHanded" value="100" />
+    <skill id="Polearm" value="60" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="100" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+  <SkillSet id="empire_widow_a_t5_template">
+    <skill id="Athletics" value="130" />
+    <skill id="Riding" value="80" />
+    <skill id="OneHanded" value="60" />
+    <skill id="TwoHanded" value="130" />
+    <skill id="Polearm" value="60" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="130" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+<!-- Empire Bandit (1h/2h) -->
+  <SkillSet id="empire_widow_b_t2_template">
+    <skill id="Athletics" value="40" />
+    <skill id="Riding" value="20" />
+    <skill id="OneHanded" value="40" />
+    <skill id="TwoHanded" value="40" />
+    <skill id="Polearm" value="20" />
+    <skill id="Bow" value="15" />
+    <skill id="Crossbow" value="15" />
+    <skill id="Throwing" value="20" />
+  </SkillSet>
+  <SkillSet id="empire_widow_b_t3_template">
+    <skill id="Athletics" value="70" />
+    <skill id="Riding" value="40" />
+    <skill id="OneHanded" value="70" />
+    <skill id="TwoHanded" value="70" />
+    <skill id="Polearm" value="40" />
+    <skill id="Bow" value="30" />
+    <skill id="Crossbow" value="30" />
+    <skill id="Throwing" value="40" />
+  </SkillSet>
+  <SkillSet id="empire_widow_b_t4_template">
+    <skill id="Athletics" value="100" />
+    <skill id="Riding" value="60" />
+    <skill id="OneHanded" value="100" />
+    <skill id="TwoHanded" value="110" />
+    <skill id="Polearm" value="60" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+  <SkillSet id="empire_widow_b_t5_template">
+    <skill id="Athletics" value="130" />
+    <skill id="Riding" value="80" />
+    <skill id="OneHanded" value="130" />
+    <skill id="TwoHanded" value="160" />
+    <skill id="Polearm" value="60" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+  <SkillSet id="empire_widow_b_t6_template">
+    <skill id="Athletics" value="170" />
+    <skill id="Riding" value="80" />
+    <skill id="OneHanded" value="200" />
+    <skill id="TwoHanded" value="220" />
+    <skill id="Polearm" value="60" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+<!-- Khuzait Merc (pole/1h) -->
+  <SkillSet id="khuzait_widow_a_t2_template">
+    <skill id="Athletics" value="40" />
+    <skill id="Riding" value="20" />
+    <skill id="OneHanded" value="40" />
+    <skill id="TwoHanded" value="20" />
+    <skill id="Polearm" value="40" />
+    <skill id="Bow" value="15" />
+    <skill id="Crossbow" value="15" />
+    <skill id="Throwing" value="20" />
+  </SkillSet>
+  <SkillSet id="khuzait_widow_a_t3_template">
+    <skill id="Athletics" value="70" />
+    <skill id="Riding" value="40" />
+    <skill id="OneHanded" value="70" />
+    <skill id="TwoHanded" value="40" />
+    <skill id="Polearm" value="70" />
+    <skill id="Bow" value="30" />
+    <skill id="Crossbow" value="30" />
+    <skill id="Throwing" value="40" />
+  </SkillSet>
+  <SkillSet id="khuzait_widow_a_t4_template">
+    <skill id="Athletics" value="100" />
+    <skill id="Riding" value="60" />
+    <skill id="OneHanded" value="100" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="100" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+  <SkillSet id="khuzait_widow_a_t5_template">
+    <skill id="Athletics" value="130" />
+    <skill id="Riding" value="80" />
+    <skill id="OneHanded" value="130" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="130" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+<!-- Khuzait Bandit (bow/pole/1h/horse) -->
+  <SkillSet id="khuzait_widow_b_t2_template">
+    <skill id="Athletics" value="40" />
+    <skill id="Riding" value="20" />
+    <skill id="OneHanded" value="40" />
+    <skill id="TwoHanded" value="20" />
+    <skill id="Polearm" value="30" />
+    <skill id="Bow" value="40" />
+    <skill id="Crossbow" value="15" />
+    <skill id="Throwing" value="20" />
+  </SkillSet>
+  <SkillSet id="khuzait_widow_b_t3_template">
+    <skill id="Athletics" value="40" />
+    <skill id="Riding" value="70" />
+    <skill id="OneHanded" value="40" />
+    <skill id="TwoHanded" value="40" />
+    <skill id="Polearm" value="70" />
+    <skill id="Bow" value="70" />
+    <skill id="Crossbow" value="30" />
+    <skill id="Throwing" value="40" />
+  </SkillSet>
+  <SkillSet id="khuzait_widow_b_t4_template"> <!-- steppe_bandits_chief -->
+    <skill id="Athletics" value="60" />
+    <skill id="Riding" value="100" />
+    <skill id="OneHanded" value="80" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="100" />
+    <skill id="Bow" value="100" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+  <SkillSet id="khuzait_widow_b_t5_template"> <!-- khuzait_heavy_horse_archer -->
+    <skill id="Athletics" value="80" />
+    <skill id="Riding" value="130" />
+    <skill id="OneHanded" value="100" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="130" />
+    <skill id="Bow" value="130" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+  <SkillSet id="khuzait_widow_b_t6_template"> <!-- aserai_vanguard_faris -->
+    <skill id="Athletics" value="80" />
+    <skill id="Riding" value="200" />
+    <skill id="OneHanded" value="140" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="170" />
+    <skill id="Bow" value="170" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+<!-- Sturgia Merc (1h/2h) -->
+  <SkillSet id="sturgia_widow_a_t2_template">
+    <skill id="Athletics" value="40" />
+    <skill id="Riding" value="20" />
+    <skill id="OneHanded" value="40" />
+    <skill id="TwoHanded" value="40" />
+    <skill id="Polearm" value="20" />
+    <skill id="Bow" value="15" />
+    <skill id="Crossbow" value="15" />
+    <skill id="Throwing" value="20" />
+  </SkillSet>
+  <SkillSet id="sturgia_widow_a_t3_template">
+    <skill id="Athletics" value="70" />
+    <skill id="Riding" value="40" />
+    <skill id="OneHanded" value="70" />
+    <skill id="TwoHanded" value="70" />
+    <skill id="Polearm" value="40" />
+    <skill id="Bow" value="30" />
+    <skill id="Crossbow" value="30" />
+    <skill id="Throwing" value="40" />
+  </SkillSet>
+  <SkillSet id="sturgia_widow_a_t4_template">
+    <skill id="Athletics" value="100" />
+    <skill id="Riding" value="60" />
+    <skill id="OneHanded" value="100" />
+    <skill id="TwoHanded" value="100" />
+    <skill id="Polearm" value="60" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+  <SkillSet id="sturgia_widow_a_t5_template">
+    <skill id="Athletics" value="130" />
+    <skill id="Riding" value="80" />
+    <skill id="OneHanded" value="130" />
+    <skill id="TwoHanded" value="130" />
+    <skill id="Polearm" value="60" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+<!-- Sturgia Bandit (2h/throw) -->
+  <SkillSet id="sturgia_widow_b_t2_template">
+    <skill id="Athletics" value="40" />
+    <skill id="Riding" value="20" />
+    <skill id="OneHanded" value="20" />
+    <skill id="TwoHanded" value="40" />
+    <skill id="Polearm" value="20" />
+    <skill id="Bow" value="15" />
+    <skill id="Crossbow" value="15" />
+    <skill id="Throwing" value="40" />
+  </SkillSet>
+  <SkillSet id="sturgia_widow_b_t3_template">
+    <skill id="Athletics" value="70" />
+    <skill id="Riding" value="40" />
+    <skill id="OneHanded" value="40" />
+    <skill id="TwoHanded" value="70" />
+    <skill id="Polearm" value="40" />
+    <skill id="Bow" value="40" />
+    <skill id="Crossbow" value="30" />
+    <skill id="Throwing" value="70" />
+  </SkillSet>
+  <SkillSet id="sturgia_widow_b_t4_template"> <!-- mountain_bandits_chief -->
+    <skill id="Athletics" value="100" />
+    <skill id="Riding" value="60" />
+    <skill id="OneHanded" value="60" />
+    <skill id="TwoHanded" value="120" />
+    <skill id="Polearm" value="60" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="110" />
+  </SkillSet>
+  <SkillSet id="sturgia_widow_b_t5_template"> <!-- battanian_wildling -->
+    <skill id="Athletics" value="140" />
+    <skill id="Riding" value="60" />
+    <skill id="OneHanded" value="60" />
+    <skill id="TwoHanded" value="120" />
+    <skill id="Polearm" value="60" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="130" />
+  </SkillSet>
+  <SkillSet id="sturgia_widow_b_t6_template"> <!-- druzhinnik_champion -->
+    <skill id="Athletics" value="170" />
+    <skill id="Riding" value="60" />
+    <skill id="OneHanded" value="60" />
+    <skill id="TwoHanded" value="200" />
+    <skill id="Polearm" value="60" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="220" />
+  </SkillSet>
+<!-- Vlandia Merc (pole/1h) -->
+  <SkillSet id="vlandia_widow_a_t2_template">
+    <skill id="Athletics" value="40" />
+    <skill id="Riding" value="20" />
+    <skill id="OneHanded" value="40" />
+    <skill id="TwoHanded" value="20" />
+    <skill id="Polearm" value="40" />
+    <skill id="Bow" value="15" />
+    <skill id="Crossbow" value="15" />
+    <skill id="Throwing" value="20" />
+  </SkillSet>
+  <SkillSet id="vlandia_widow_a_t3_template">
+    <skill id="Athletics" value="70" />
+    <skill id="Riding" value="40" />
+    <skill id="OneHanded" value="70" />
+    <skill id="TwoHanded" value="40" />
+    <skill id="Polearm" value="70" />
+    <skill id="Bow" value="30" />
+    <skill id="Crossbow" value="30" />
+    <skill id="Throwing" value="40" />
+  </SkillSet>
+  <SkillSet id="vlandia_widow_a_t4_template">
+    <skill id="Athletics" value="100" />
+    <skill id="Riding" value="60" />
+    <skill id="OneHanded" value="100" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="100" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+  <SkillSet id="vlandia_widow_a_t5_template"> <!-- sturgian_shock_troop -->
+    <skill id="Athletics" value="125" />
+    <skill id="Riding" value="80" />
+    <skill id="OneHanded" value="140" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="140" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+<!-- Vlandia Bandit (pole/1h/horse) -->
+  <SkillSet id="vlandia_widow_b_t2_template">
+    <skill id="Athletics" value="40" />
+    <skill id="Riding" value="20" />
+    <skill id="OneHanded" value="40" />
+    <skill id="TwoHanded" value="20" />
+    <skill id="Polearm" value="40" />
+    <skill id="Bow" value="15" />
+    <skill id="Crossbow" value="15" />
+    <skill id="Throwing" value="20" />
+  </SkillSet>
+  <SkillSet id="vlandia_widow_b_t3_template">
+    <skill id="Athletics" value="40" />
+    <skill id="Riding" value="70" />
+    <skill id="OneHanded" value="70" />
+    <skill id="TwoHanded" value="40" />
+    <skill id="Polearm" value="70" />
+    <skill id="Bow" value="40" />
+    <skill id="Crossbow" value="30" />
+    <skill id="Throwing" value="40" />
+  </SkillSet>
+  <SkillSet id="vlandia_widow_b_t4_template"> <!-- mountain_bandits_chief -->
+    <skill id="Athletics" value="60" />
+    <skill id="Riding" value="100" />
+    <skill id="OneHanded" value="110" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="120" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+  <SkillSet id="vlandia_widow_b_t5_template"> <!-- vlandian_champion -->
+    <skill id="Athletics" value="80" />
+    <skill id="Riding" value="130" />
+    <skill id="OneHanded" value="130" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="160" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+  <SkillSet id="vlandia_widow_b_t6_template"> <!-- vlandian_banner_knight -->
+    <skill id="Athletics" value="80" />
+    <skill id="Riding" value="200" />
+    <skill id="OneHanded" value="220" />
+    <skill id="TwoHanded" value="60" />
+    <skill id="Polearm" value="260" />
+    <skill id="Bow" value="45" />
+    <skill id="Crossbow" value="45" />
+    <skill id="Throwing" value="60" />
+  </SkillSet>
+</SkillSets>

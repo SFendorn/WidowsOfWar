@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <!-- #region Villagers -->
+  <NPCCharacter id="villager_khuzait_widow"
+                default_group="Infantry"
+                level="1"
+                name="{=khdamsel}Khuzait Damsel"
+                occupation="Villager" is_female="true"
+                culture="Culture.khuzait"
+                skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.body_khuzait_widow" />
+    </face>
+    <skills/>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.khuzait_widow_a_t1" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="villager_khuzait" civilian="true" />
+      <EquipmentSet id="villager_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_empire_widow"
+                default_group="Infantry"
+                level="1"
+                name="{=emdamsel}Imperial Damsel"
+                occupation="Villager" is_female="true"
+                culture="Culture.empire"
+                skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.body_empire_widow" />
+    </face>
+    <skills/>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.empire_widow_a_t1" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="villager_empire" civilian="true" />
+      <EquipmentSet id="villager_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_aserai_widow"
+                default_group="Infantry"
+                level="1"
+                age="30"
+                name="{=asdamsel}Aserai Damsel"
+                occupation="Villager" is_female="true"
+                culture="Culture.aserai"
+                skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.body_aserai_widow" />
+    </face>
+    <skills/>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_widow_a_t1" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="villager_aserai" civilian="true" />
+      <EquipmentSet id="villager_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_sturgia_widow"
+                default_group="Infantry"
+                level="1"
+                name="{=stdamsel}Sturgian Damsel"
+                occupation="Villager" is_female="true"
+                culture="Culture.sturgia"
+                skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.body_sturgia_widow" />
+    </face>
+    <skills/>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.sturgia_widow_a_t1" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="villager_sturgia" civilian="true" />
+      <EquipmentSet id="villager_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_vlandia_widow"
+                default_group="Infantry"
+                level="1"
+                name="{=vldamsel}Vlandian Damsel"
+                occupation="Villager" is_female="true"
+                culture="Culture.vlandia"
+                skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.body_vlandia_widow" />
+    </face>
+    <skills/>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandia_widow_a_t1" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="villager_vlandia" civilian="true" />
+      <EquipmentSet id="villager_vlandia" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="villager_battania_widow"
+                default_group="Infantry"
+                level="1"
+                name="{=badamsel}Battanian Damsel"
+                occupation="Villager" is_female="true"
+                culture="Culture.battania"
+                skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.body_battania_widow" />
+    </face>
+    <skills/>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.battania_widow_a_t1" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="villager_battania" civilian="true" />
+      <EquipmentSet id="villager_battania" />
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>

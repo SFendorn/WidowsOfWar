@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BodyProperties>
+  <BodyProperty id="body_khuzait_widow">
+    <BodyPropertiesMin version="4"
+                       age="20.00"
+                       weight="0.1"
+                       build="0.2"
+                       key="000AA80C5000000C001111007770015240060118859910010505500060011010000436030011001000000000000000000000000000000000000000001C040003"  />
+    <BodyPropertiesMax version="4"
+                       age="35.00"
+                       weight="0.4"
+                       build="0.5"
+                       key="001EFC0FD3143010EDEFFFEFFFFFFFEFEF7FFFEFEFFFDDDEEEFFFFFFAEDDCEC9079CF6780996FBEF00000000000000000000000000000000000000006B2C40C4"  />
+  </BodyProperty>
+  <BodyProperty id="body_empire_widow">
+    <BodyPropertiesMin version="4"
+                       age="20.00"
+                       weight="0.1"
+                       build="0.2"
+                       key="0000600990000001227101022221000240008203101023225532432173535432004446030401121200000000000000000000000000000000000000000A940001"  />
+    <BodyPropertiesMax version="4"
+                       age="35.00"
+                       weight="0.4"
+                       build="0.5"
+                       key="0020F80FD2B4300FFE7EFEEEEDFFFFEFEFFE9EEFEFF8FFEEFFFFEFEE8FFEFFFE05CDC6570CFEFFFF0000000000000000000000000000000000000000698C90C4"  />
+  </BodyProperty>
+  <BodyProperty id="body_aserai_widow">
+    <BodyPropertiesMin version="4"
+                       age="20.00"
+                       weight="0.1"
+                       build="0.2"
+                       key="001EA40C500000071172111110111020111071111110211108121100782222130034460303001100000000000000000000000000000000000000000012640003"  />
+    <BodyPropertiesMax version="4"
+                       age="35.00"
+                       weight="0.4"
+                       build="0.5"
+                       key="0036F40FD22C3015FF8EFFFFEFEFEFFF7FE78FFFEEF8EFFEFFFEFFEEFEFFEEEF05CCD6570CEFFFFE00000000000000000000000000000000000000006B9440C4"  />
+  </BodyProperty>
+  <BodyProperty id="body_sturgia_widow">
+    <BodyPropertiesMin version="4"
+                       age="20.00"
+                       weight="0.1"
+                       build="0.2"
+                       key="00000400007000010371010011222150300660010010010030234101702221230047360304313220000000000000000000000000000000000000000012840000"  />
+    <BodyPropertiesMax version="4"
+                       age="35.00"
+                       weight="0.4"
+                       build="0.5"
+                       key="0008DC0D00703010EECDBCCEDDDDEDDDFFFEFFFA7FF7FEFFFFEEFFFFAEEEFFEF08DDE6890DFFFEEF000000000000000000000000000000000000000067C440C4"  />
+  </BodyProperty>
+  <BodyProperty id="body_vlandia_widow">
+    <BodyPropertiesMin version="4"
+                       age="20.00"
+                       weight="0.1"
+                       build="0.2"
+                       key="0000000800CC000A1060001110120111120961121030121122215410710110120057460305111102000000000000000000000000000000000000000006A40003"  />
+    <BodyPropertiesMax version="4"
+                       age="35.00"
+                       weight="0.4"
+                       build="0.5"
+                       key="0013D80E40CC0010EF7FFFFEDEEEEEEEFEFF7EFEFEF7FFEEEEEEFEEE8FFEEEFF06BDD6670BEEFEEE0000000000000000000000000000000000000000717440C3"  />
+  </BodyProperty>
+  <BodyProperty id="body_battania_widow">
+    <BodyPropertiesMin version="4"
+                       age="20.00"
+                       weight="0.1"
+                       build="0.2"
+                       key="00000406007000071172111110111020411871111110211171101100702222110077660307222210000000000000000000000000000000000000000012E40003"  />
+    <BodyPropertiesMax version="4"
+                       age="35.00"
+                       weight="0.4"
+                       build="0.5"
+                       key="000DD80E40703010EF8EEEEEEEFFEEFFEEEEEEFEEFE6EFEEEFEEFFEDF7EEEEEE06FEE6680FEEFFFE00000000000000000000000000000000000000006BFC40C4"  />
+  </BodyProperty>
+</BodyProperties>

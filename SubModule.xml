@@ -1,0 +1,109 @@
+<Module>
+  <Name value="WidowsOfWar"/>
+  <Id value="WidowsOfWar"/>
+  <Version value="v1.0.0"/>
+  <SingleplayerModule value="true"/>
+  <MultiplayerModule value="false"/>
+    <DependedModules>
+    <DependedModule DependentVersion="v2.2.2.88" Id="Bannerlord.Harmony" />
+    <DependedModule DependentVersion="v1.1.1" Id="Native" />
+    <DependedModule DependentVersion="v1.1.1" Id="SandBoxCore" />
+    <DependedModule DependentVersion="v1.1.1" Id="Sandbox" />
+    <DependedModule DependentVersion="v1.1.1" Id="StoryMode" />
+  </DependedModules>
+  <!--
+  <SubModules>
+    <SubModule>
+      <Name value="WidowsOfWar"/>
+      <DLLName value="WidowsOfWar.dll"/>
+      <SubModuleClassType value="WidowsOfWar.WidowsOfWar"/>
+      <Tags>
+        <Tag key="DedicatedServerType" value="none" />
+        <Tag key="IsNoRenderModeElement" value="false" />
+      </Tags>
+    </SubModule>
+  </SubModules>
+  -->
+  <Xmls>
+    <XmlNode>
+      <XmlName id="SPCultures" path="spcultures_widows"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "Sandbox"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="BodyProperties" path="widows_bodyproperties"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "Sandbox"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="SkillSets" path="widows_skill_sets"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "Sandbox"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="NPCCharacters" path="peasant_widows"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "Sandbox"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="NPCCharacters" path="aserai_widows"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "Sandbox"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="NPCCharacters" path="battania_widows"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "Sandbox"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="NPCCharacters" path="empire_widows"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "Sandbox"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="NPCCharacters" path="khuzait_widows"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "Sandbox"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="NPCCharacters" path="sturgia_widows"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "Sandbox"/>
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="NPCCharacters" path="vlandia_widows"/>
+      <IncludedGameTypes>
+        <GameType value = "Campaign"/>
+        <GameType value = "CampaignStoryMode"/>
+        <GameType value = "Sandbox"/>
+      </IncludedGameTypes>
+    </XmlNode>
+  </Xmls>
+</Module>
