@@ -11,7 +11,6 @@
     <DependedModule DependentVersion="v1.1.1" Id="Sandbox" />
     <DependedModule DependentVersion="v1.1.1" Id="StoryMode" />
   </DependedModules>
-  <!--
   <SubModules>
     <SubModule>
       <Name value="WidowsOfWar"/>
@@ -23,7 +22,6 @@
       </Tags>
     </SubModule>
   </SubModules>
-  -->
   <Xmls>
     <XmlNode>
       <XmlName id="SPCultures" path="spcultures_widows"/>
