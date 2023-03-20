@@ -16,93 +16,11 @@
   </NPCCharacter>
 <!-- a -->
   <NPCCharacter id="sturgia_widow_a_t2" name="{=sturgia_widow_a_t2}Skirmisher" level="11"
-  default_group="Infantry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
+  default_group="Infantry" occupation="Bandit" culture="Culture.widows" is_basic_troop="true" is_female="true" 
   skill_template="SkillSet.sturgia_widow_a_t2_template">
     <face><face_key_template value="BodyProperty.body_sturgia_widow" /></face>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.sturgia_widow_a_t3" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
-        <equipment slot="Item1" id="Item.sturgia_old_shield_b" />
-        <equipment slot="Item2" id="Item.peasant_2haxe_1_t1" />
-        <equipment slot="Head" id="Item.roughhide_cap" />
-        <equipment slot="Cape" id="Item.scarf" />
-        <equipment slot="Body" id="Item.northern_leather_vest" />
-        <equipment slot="Leg" id="Item.leather_shoes" />
-      </EquipmentRoster>
-      <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter id="sturgia_widow_a_t3" name="{=sturgia_widow_a_t3}Warrioress" level="16"
-  default_group="Infantry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
-  skill_template="SkillSet.sturgia_widow_a_t3_template">
-    <face><face_key_template value="BodyProperty.body_sturgia_widow" /></face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.sturgia_widow_a_t4" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.northern_battle_axe_t3" />
-        <equipment slot="Item1" id="Item.sturgia_old_shield_c" />
-        <equipment slot="Item2" id="Item.battania_2haxe_1_t2" />
-        <equipment slot="Head" id="Item.nasalhelm_over_leather" />
-        <equipment slot="Cape" id="Item.battanian_leather_shoulder_a" />
-        <equipment slot="Body" id="Item.northern_lamellar_armor" />
-        <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
-        <equipment slot="Leg" id="Item.leather_shoes" />
-      </EquipmentRoster>
-      <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter id="sturgia_widow_a_t4" name="{=sturgia_widow_a_t4}Shieldmaiden" level="21"
-  default_group="Infantry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
-  skill_template="SkillSet.sturgia_widow_a_t4_template">
-    <face><face_key_template value="BodyProperty.body_sturgia_widow" /></face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.sturgia_widow_a_t5" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.sturgia_axe_4_t4" />
-        <equipment slot="Item1" id="Item.viking_round_shield" />
-        <equipment slot="Item2" id="Item.sturgia_2haxe_1_t4" />
-        <equipment slot="Head" id="Item.northern_warlord_helmet" />
-        <equipment slot="Cape" id="Item.battanian_chainmail_shoulder_b" />
-        <equipment slot="Body" id="Item.nordic_hauberk" />
-        <equipment slot="Gloves" id="Item.mail_mitten" />
-        <equipment slot="Leg" id="Item.mail_chausses" />
-      </EquipmentRoster>
-      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter id="sturgia_widow_a_t5" name="{=sturgia_widow_a_t5}Valkyrie" level="26"
-  default_group="Infantry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
-  skill_template="SkillSet.sturgia_widow_a_t5_template">
-    <face><face_key_template value="BodyProperty.body_sturgia_widow" /></face>
-    <upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.sturgia_axe_4_t4" />
-        <equipment slot="Item1" id="Item.heavy_round_shield" />
-        <equipment slot="Item2" id="Item.sturgia_2haxe_2_t5" />
-        <equipment slot="Head" id="Item.northern_warlord_helmet" />
-        <equipment slot="Cape" id="Item.armored_bearskin" />
-        <equipment slot="Body" id="Item.northern_coat_of_plates" />
-        <equipment slot="Gloves" id="Item.northern_plated_gloves" />
-        <equipment slot="Leg" id="Item.northern_plated_boots" />
-      </EquipmentRoster>
-      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-<!-- b -->
-  <NPCCharacter id="sturgia_widow_b_t2" name="{=sturgia_widow_b_t2}Pillager" level="11"
-  default_group="Infantry" occupation="Bandit" culture="Culture.widows" is_basic_troop="true" is_female="true" 
-  skill_template="SkillSet.sturgia_widow_b_t2_template">
-    <face><face_key_template value="BodyProperty.body_sturgia_widow" /></face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.sturgia_widow_b_t3" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -114,12 +32,12 @@
       <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="sturgia_widow_b_t3" name="{=sturgia_widow_b_t3}Corsair" level="16"
+  <NPCCharacter id="sturgia_widow_a_t3" name="{=sturgia_widow_a_t3}Warrioress" level="16"
   default_group="Infantry" occupation="Bandit" culture="Culture.widows" is_female="true" 
-  skill_template="SkillSet.sturgia_widow_b_t3_template">
+  skill_template="SkillSet.sturgia_widow_a_t3_template">
     <face><face_key_template value="BodyProperty.body_sturgia_widow" /></face>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.sturgia_widow_b_t4" />
+      <upgrade_target id="NPCCharacter.sturgia_widow_a_t4" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -134,12 +52,12 @@
       <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="sturgia_widow_b_t4" name="{=sturgia_widow_b_t4}Reaver" level="21"
+  <NPCCharacter id="sturgia_widow_a_t4" name="{=sturgia_widow_a_t4}Viking" level="21"
   default_group="Infantry" occupation="Bandit" culture="Culture.widows" is_female="true" 
-  skill_template="SkillSet.sturgia_widow_b_t4_template">
+  skill_template="SkillSet.sturgia_widow_a_t4_template">
     <face><face_key_template value="BodyProperty.body_sturgia_widow" /></face>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.sturgia_widow_b_t5" />
+      <upgrade_target id="NPCCharacter.sturgia_widow_a_t5" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -155,13 +73,11 @@
       <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="sturgia_widow_b_t5" name="{=sturgia_widow_b_t5}Berserker" level="26"
+  <NPCCharacter id="sturgia_widow_a_t5" name="{=sturgia_widow_a_t5}Berserker" level="26"
   default_group="Infantry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
-  skill_template="SkillSet.sturgia_widow_b_t5_template">
+  skill_template="SkillSet.sturgia_widow_a_t5_template">
     <face><face_key_template value="BodyProperty.body_sturgia_widow" /></face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.sturgia_widow_b_t6" />
-    </upgrade_targets>
+    <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
@@ -177,22 +93,105 @@
       <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="sturgia_widow_b_t6" name="{=sturgia_widow_b_t6}Elite Berserker" level="31"
+<!-- b -->
+  <NPCCharacter id="sturgia_widow_b_t2" name="{=sturgia_widow_b_t2}Pillager" level="11"
+  default_group="Infantry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
+  skill_template="SkillSet.sturgia_widow_b_t2_template">
+    <face><face_key_template value="BodyProperty.body_sturgia_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.sturgia_widow_b_t3" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_b" />
+        <equipment slot="Item2" id="Item.peasant_2haxe_1_t1" />
+        <equipment slot="Head" id="Item.roughhide_cap" />
+        <equipment slot="Cape" id="Item.scarf" />
+        <equipment slot="Body" id="Item.northern_leather_vest" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="sturgia_widow_b_t3" name="{=sturgia_widow_b_t3}Corsair" level="16"
+  default_group="Infantry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
+  skill_template="SkillSet.sturgia_widow_b_t3_template">
+    <face><face_key_template value="BodyProperty.body_sturgia_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.sturgia_widow_b_t4" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.northern_battle_axe_t3" />
+        <equipment slot="Item1" id="Item.sturgia_old_shield_c" />
+        <equipment slot="Item2" id="Item.battania_2haxe_1_t2" />
+        <equipment slot="Head" id="Item.nasalhelm_over_leather" />
+        <equipment slot="Cape" id="Item.battanian_leather_shoulder_a" />
+        <equipment slot="Body" id="Item.northern_lamellar_armor" />
+        <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+        <equipment slot="Leg" id="Item.leather_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="sturgia_widow_b_t4" name="{=sturgia_widow_b_t4}Reaver" level="21"
+  default_group="Infantry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
+  skill_template="SkillSet.sturgia_widow_b_t4_template">
+    <face><face_key_template value="BodyProperty.body_sturgia_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.sturgia_widow_b_t5" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_4_t4" />
+        <equipment slot="Item1" id="Item.viking_round_shield" />
+        <equipment slot="Item2" id="Item.sturgia_2haxe_1_t4" />
+        <equipment slot="Head" id="Item.northern_warlord_helmet" />
+        <equipment slot="Cape" id="Item.battanian_chainmail_shoulder_b" />
+        <equipment slot="Body" id="Item.nordic_hauberk" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Leg" id="Item.mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="sturgia_widow_b_t5" name="{=sturgia_widow_b_t5}Shieldmaiden" level="26"
+  default_group="Infantry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
+  skill_template="SkillSet.sturgia_widow_b_t5_template">
+    <face><face_key_template value="BodyProperty.body_sturgia_widow" /></face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.sturgia_widow_a_t6" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_4_t4" />
+        <equipment slot="Item1" id="Item.heavy_round_shield" />
+        <equipment slot="Item2" id="Item.sturgia_2haxe_2_t5" />
+        <equipment slot="Head" id="Item.northern_warlord_helmet" />
+        <equipment slot="Cape" id="Item.armored_bearskin" />
+        <equipment slot="Body" id="Item.northern_coat_of_plates" />
+        <equipment slot="Gloves" id="Item.northern_plated_gloves" />
+        <equipment slot="Leg" id="Item.northern_plated_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="sturgia_widow_b_t6" name="{=sturgia_widow_b_t6}Valkyrie" level="31"
   default_group="Infantry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
   skill_template="SkillSet.sturgia_widow_b_t6_template">
     <face><face_key_template value="BodyProperty.body_sturgia_widow" /></face>
     <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-        <equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
-        <equipment slot="Item1" id="Item.woodland_throwing_axe_1_t1" />
-        <equipment slot="Item2" id="Item.woodland_throwing_axe_1_t1" />
-        <equipment slot="Item3" id="Item.woodland_throwing_axe_1_t1" />
+        <equipment slot="Item0" id="Item.sturgia_axe_4_t4" />
+        <equipment slot="Item1" id="Item.heavy_round_shield" />
+        <equipment slot="Item2" id="Item.sturgia_2haxe_2_t5" />
         <equipment slot="Head" id="Item.sturgian_lord_helmet_a" />
         <equipment slot="Cape" id="Item.fur_cloak_c" />
-        <equipment slot="Body" id="Item.sturgian_lamellar_base" />
-        <equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
-        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Body" id="Item.northern_coat_of_plates" />
+        <equipment slot="Gloves" id="Item.northern_plated_gloves" />
+        <equipment slot="Leg" id="Item.northern_plated_boots" />
       </EquipmentRoster>
       <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
