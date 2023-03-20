@@ -1,5 +1,7 @@
 ﻿using HarmonyLib;
 using System.Reflection;
+using TaleWorlds.CampaignSystem;
+using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
 
 namespace WidowsOfWar
@@ -11,6 +13,15 @@ namespace WidowsOfWar
             base.OnSubModuleLoad();
             Harmony harmony = new Harmony("WidowsOfWarHarmony");
             harmony.PatchAll(Assembly.GetAssembly(GetType()));
+        }
+
+        protected override void OnGameStart(Game game, IGameStarter gameStarter)
+        {
+            if (game.GameType is Campaign && gameStarter is CampaignGameStarter campaignGameStarter)
+            {
+                campaignGameStarter.AddBehavior(new VillageRecruitBehavior());
+                campaignGameStarter.AddBehavior(new TownRecruitBehavior());
+            }
         }
     }
 }

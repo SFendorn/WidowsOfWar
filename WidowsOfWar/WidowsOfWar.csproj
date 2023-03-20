@@ -262,6 +262,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlleyModelPatch.cs" />
+    <Compile Include="RecruitModel.cs" />
+    <Compile Include="RefugeModel.cs" />
+    <Compile Include="TownRecruitBehavior.cs" />
+    <Compile Include="VillageRecruitBehavior.cs" />
     <Compile Include="WidowsOfWar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
