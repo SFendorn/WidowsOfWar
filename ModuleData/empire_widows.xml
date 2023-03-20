@@ -106,7 +106,7 @@
     </Equipments>
   </NPCCharacter>
 <!-- b -->
-  <NPCCharacter id="empire_widow_b_t2" name="{=empire_widow_b_t2}Wanderer" level="11"
+  <NPCCharacter id="empire_widow_b_t2" name="{=empire_widow_b_t2}Wayfarer" level="11"
   default_group="Infantry" occupation="Bandit" culture="Culture.widows" is_basic_troop="true" is_female="true" 
   skill_template="SkillSet.empire_widow_b_t2_template">
     <face><face_key_template value="BodyProperty.body_empire_widow" /></face>
@@ -171,7 +171,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="empire_widow_b_t5" name="{=empire_widow_b_t5}Blademaster" level="26"
+  <NPCCharacter id="empire_widow_b_t5" name="{=empire_widow_b_t5}Swordstress" level="26"
   default_group="Infantry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
   skill_template="SkillSet.empire_widow_b_t5_template">
     <face><face_key_template value="BodyProperty.body_empire_widow" /></face>
@@ -191,7 +191,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="empire_widow_b_t6" name="{=empire_widow_b_t6}Elite Blademaster" level="31"
+  <NPCCharacter id="empire_widow_b_t6" name="{=empire_widow_b_t6}Bladesinger" level="31"
   default_group="Infantry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
   skill_template="SkillSet.empire_widow_b_t6_template">
     <face><face_key_template value="BodyProperty.body_empire_widow" /></face>

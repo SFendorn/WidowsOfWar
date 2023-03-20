@@ -66,7 +66,7 @@
       <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="battania_widow_a_t4" name="{=battania_widow_a_t4}Waywatcher" level="21"
+  <NPCCharacter id="battania_widow_a_t4" name="{=battania_widow_a_t4}Vanguard" level="21"
   default_group="HorseArcher" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
   skill_template="SkillSet.battania_widow_a_t4_template">
     <face><face_key_template value="BodyProperty.body_battania_widow" /></face>
@@ -90,7 +90,7 @@
       <EquipmentSet id="battania_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="battania_widow_a_t5" name="{=battania_widow_a_t5}Stalker" level="26"
+  <NPCCharacter id="battania_widow_a_t5" name="{=battania_widow_a_t5}Waywatcher" level="26"
   default_group="HorseArcher" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
   skill_template="SkillSet.battania_widow_a_t5_template"  upgrade_requires="ItemCategory.war_horse">
     <face><face_key_template value="BodyProperty.body_battania_widow" /></face>
@@ -113,7 +113,7 @@
     </Equipments>
   </NPCCharacter>
 <!-- b -->
-  <NPCCharacter id="battania_widow_b_t2" name="{=battania_widow_b_t2}Rustler" level="11"
+  <NPCCharacter id="battania_widow_b_t2" name="{=battania_widow_b_t2}Poacher" level="11"
   default_group="Ranged" occupation="Bandit" culture="Culture.widows" is_basic_troop="true" is_female="true" 
   skill_template="SkillSet.battania_widow_b_t2_template">
     <face><face_key_template value="BodyProperty.body_battania_widow" /></face>
@@ -140,7 +140,7 @@
       <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="battania_widow_b_t3" name="{=battania_widow_b_t3}Poacher" level="16"
+  <NPCCharacter id="battania_widow_b_t3" name="{=battania_widow_b_t3}Trapper" level="16"
   default_group="Ranged" occupation="Bandit" culture="Culture.widows" is_female="true" 
   skill_template="SkillSet.battania_widow_b_t3_template">
     <face><face_key_template value="BodyProperty.body_battania_widow" /></face>
@@ -173,7 +173,7 @@
       <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="battania_widow_b_t4" name="{=battania_widow_b_t4}Trapper" level="21"
+  <NPCCharacter id="battania_widow_b_t4" name="{=battania_widow_b_t4}Stalker" level="21"
   default_group="Ranged" occupation="Bandit" culture="Culture.widows" is_female="true" 
   skill_template="SkillSet.battania_widow_b_t4_template">
     <face><face_key_template value="BodyProperty.body_battania_widow" /></face>
