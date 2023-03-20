@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SPCultures>
-  <Culture id="widows"
+  <Culture id="bandit_widows"
            name="{=widows}Desperate Widows"
            elite_basic_troop="NPCCharacter.empire_widow_b_t2"
            basic_troop="NPCCharacter.empire_widow_a_t1"

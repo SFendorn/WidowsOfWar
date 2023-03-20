@@ -107,7 +107,7 @@
   </NPCCharacter>
 <!-- b -->
   <NPCCharacter id="empire_widow_b_t2" name="{=empire_widow_b_t2}Wayfarer" level="11"
-  default_group="Infantry" occupation="Bandit" culture="Culture.widows" is_basic_troop="true" is_female="true" 
+  default_group="Infantry" occupation="Bandit" culture="Culture.bandit_widows" is_basic_troop="true" is_female="true" 
   skill_template="SkillSet.empire_widow_b_t2_template">
     <face><face_key_template value="BodyProperty.body_empire_widow" /></face>
     <upgrade_targets>
@@ -132,7 +132,7 @@
     </Equipments>
   </NPCCharacter>
   <NPCCharacter id="empire_widow_b_t3" name="{=empire_widow_b_t3}Duelist" level="16"
-  default_group="Infantry" occupation="Bandit" culture="Culture.widows" is_female="true" 
+  default_group="Infantry" occupation="Bandit" culture="Culture.bandit_widows" is_female="true" 
   skill_template="SkillSet.empire_widow_b_t3_template">
     <face><face_key_template value="BodyProperty.body_empire_widow" /></face>
     <upgrade_targets>
@@ -152,7 +152,7 @@
     </Equipments>
   </NPCCharacter>
   <NPCCharacter id="empire_widow_b_t4" name="{=empire_widow_b_t4}Gladiator" level="21"
-  default_group="Infantry" occupation="Bandit" culture="Culture.widows" is_female="true" 
+  default_group="Infantry" occupation="Bandit" culture="Culture.bandit_widows" is_female="true" 
   skill_template="SkillSet.empire_widow_b_t4_template">
     <face><face_key_template value="BodyProperty.body_empire_widow" /></face>
     <upgrade_targets>

@@ -95,7 +95,7 @@
   </NPCCharacter>
 <!-- b -->
   <NPCCharacter id="sturgia_widow_b_t2" name="{=sturgia_widow_b_t2}Pillager" level="11"
-  default_group="Infantry" occupation="Bandit" culture="Culture.widows" is_female="true" 
+  default_group="Infantry" occupation="Bandit" culture="Culture.bandit_widows" is_female="true" 
   skill_template="SkillSet.sturgia_widow_b_t2_template">
     <face><face_key_template value="BodyProperty.body_sturgia_widow" /></face>
     <upgrade_targets>
@@ -115,7 +115,7 @@
     </Equipments>
   </NPCCharacter>
   <NPCCharacter id="sturgia_widow_b_t3" name="{=sturgia_widow_b_t3}Corsair" level="16"
-  default_group="Infantry" occupation="Bandit" culture="Culture.widows" is_female="true" 
+  default_group="Infantry" occupation="Bandit" culture="Culture.bandit_widows" is_female="true" 
   skill_template="SkillSet.sturgia_widow_b_t3_template">
     <face><face_key_template value="BodyProperty.body_sturgia_widow" /></face>
     <upgrade_targets>
@@ -136,7 +136,7 @@
     </Equipments>
   </NPCCharacter>
   <NPCCharacter id="sturgia_widow_b_t4" name="{=sturgia_widow_b_t4}Reaver" level="21"
-  default_group="Infantry" occupation="Bandit" culture="Culture.widows" is_female="true" 
+  default_group="Infantry" occupation="Bandit" culture="Culture.bandit_widows" is_female="true" 
   skill_template="SkillSet.sturgia_widow_b_t4_template">
     <face><face_key_template value="BodyProperty.body_sturgia_widow" /></face>
     <upgrade_targets>

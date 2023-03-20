@@ -112,7 +112,7 @@
   </NPCCharacter>
 <!-- b -->
   <NPCCharacter id="vlandia_widow_b_t2" name="{=vlandia_widow_b_t2}Burglar" level="11"
-  default_group="Infantry" occupation="Bandit" culture="Culture.widows" is_basic_troop="true" is_female="true" 
+  default_group="Infantry" occupation="Bandit" culture="Culture.bandit_widows" is_basic_troop="true" is_female="true" 
   skill_template="SkillSet.vlandia_widow_b_t2_template">
     <face><face_key_template value="BodyProperty.body_vlandia_widow" /></face>
     <upgrade_targets>
@@ -129,7 +129,7 @@
     </Equipments>
   </NPCCharacter>
   <NPCCharacter id="vlandia_widow_b_t3" name="{=vlandia_widow_b_t3}Smuggler" level="16"
-  default_group="Cavalry" occupation="Bandit" culture="Culture.widows" is_female="true" 
+  default_group="Cavalry" occupation="Bandit" culture="Culture.bandit_widows" is_female="true" 
   skill_template="SkillSet.vlandia_widow_b_t3_template" upgrade_requires="ItemCategory.horse">
     <face><face_key_template value="BodyProperty.body_vlandia_widow" /></face>
     <upgrade_targets>
@@ -151,7 +151,7 @@
     </Equipments>
   </NPCCharacter>
   <NPCCharacter id="vlandia_widow_b_t4" name="{=vlandia_widow_b_t4}Highwaywoman" level="21"
-  default_group="Cavalry" occupation="Bandit" culture="Culture.widows" is_female="true" 
+  default_group="Cavalry" occupation="Bandit" culture="Culture.bandit_widows" is_female="true" 
   skill_template="SkillSet.vlandia_widow_b_t4_template">
     <face><face_key_template value="BodyProperty.body_vlandia_widow" /></face>
     <upgrade_targets>
