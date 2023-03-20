@@ -108,7 +108,7 @@
     </Equipments>
   </NPCCharacter>
 <!-- b -->
-  <NPCCharacter id="aserai_widow_b_t2" name="{=aserai_widow_b_t2}Gypsy" level="11"
+  <NPCCharacter id="aserai_widow_b_t2" name="{=aserai_widow_b_t2}Urchin" level="11"
   default_group="Infantry" occupation="Bandit" culture="Culture.widows" is_basic_troop="true" is_female="true" 
   skill_template="SkillSet.aserai_widow_b_t2_template">
     <face><face_key_template value="BodyProperty.body_aserai_widow" /></face>
@@ -133,7 +133,7 @@
       <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="aserai_widow_b_t3" name="{=aserai_widow_b_t3}Minx" level="16"
+  <NPCCharacter id="aserai_widow_b_t3" name="{=aserai_widow_b_t3}Rogue" level="16"
   default_group="Cavalry" occupation="Bandit" culture="Culture.widows" is_female="true" 
   skill_template="SkillSet.aserai_widow_b_t3_template" upgrade_requires="ItemCategory.horse">
     <face><face_key_template value="BodyProperty.body_aserai_widow" /></face>
@@ -157,7 +157,7 @@
       <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="aserai_widow_b_t4" name="{=aserai_widow_b_t4}Vixen" level="21"
+  <NPCCharacter id="aserai_widow_b_t4" name="{=aserai_widow_b_t4}Minx" level="21"
   default_group="Cavalry" occupation="Bandit" culture="Culture.widows" is_female="true" 
   skill_template="SkillSet.aserai_widow_b_t4_template" upgrade_requires="ItemCategory.war_horse">
     <face><face_key_template value="BodyProperty.body_aserai_widow" /></face>
@@ -181,7 +181,7 @@
       <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="aserai_widow_b_t5" name="{=aserai_widow_b_t5}Virago" level="26"
+  <NPCCharacter id="aserai_widow_b_t5" name="{=aserai_widow_b_t5}Vixen" level="26"
   default_group="Cavalry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
   skill_template="SkillSet.aserai_widow_b_t5_template">
     <face><face_key_template value="BodyProperty.body_aserai_widow" /></face>
@@ -205,7 +205,7 @@
       <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="aserai_widow_b_t6" name="{=aserai_widow_b_t6}Elite Virago" level="31"
+  <NPCCharacter id="aserai_widow_b_t6" name="{=aserai_widow_b_t6}Virago" level="31"
   default_group="Cavalry" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
   skill_template="SkillSet.aserai_widow_b_t6_template">
     <face><face_key_template value="BodyProperty.body_aserai_widow" /></face>
@@ -214,12 +214,12 @@
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.aserai_lance_1_t5" />
         <equipment slot="Item1" id="Item.steel_round_shield" />
-        <equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+        <equipment slot="Item2" id="Item.eastern_javelin_3_t4" />
         <equipment slot="Item3" id="Item.aserai_sword_3_t3" />
-        <equipment slot="Head" id="Item.closed_desert_helmet_with_mail" />
+        <equipment slot="Head" id="Item.brass_aserai_helmet_b_closed" />
         <equipment slot="Cape" id="Item.wrapped_scarf" />
-        <equipment slot="Body" id="Item.desert_scale_armor" />
-        <equipment slot="Gloves" id="Item.mail_mitten" />
+        <equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
         <equipment slot="Leg" id="Item.strapped_mail_chausses" />
         <equipment slot="Horse" id="Item.t3_aserai_horse" />
         <equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding" />

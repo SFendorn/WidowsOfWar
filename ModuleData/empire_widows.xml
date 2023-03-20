@@ -182,11 +182,11 @@
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.battania_2hsword_5_t5" />
         <equipment slot="Item1" id="Item.vlandia_2hsword_2_t5" />
-        <equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_leather" />
-        <equipment slot="Cape" id="Item.varangian_bra_mail" />
+        <equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_mail" />
+        <equipment slot="Cape" id="Item.varangian_bra_basic" />
         <equipment slot="Body" id="Item.sturgian_lamellar_fortified" />
         <equipment slot="Gloves" id="Item.battania_noble_bracers" />
-        <equipment slot="Leg" id="Item.empire_horseman_boots" />
+        <equipment slot="Leg" id="Item.mail_cavalier_boots" />
       </EquipmentRoster>
       <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
@@ -204,7 +204,7 @@
         <equipment slot="Cape" id="Item.varangian_bra_mail" />
         <equipment slot="Body" id="Item.sturgian_lamellar_fortified" />
         <equipment slot="Gloves" id="Item.battania_noble_bracers" />
-        <equipment slot="Leg" id="Item.empire_horseman_boots" />
+        <equipment slot="Leg" id="Item.mail_cavalier_boots" />
       </EquipmentRoster>
       <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>

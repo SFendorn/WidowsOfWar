@@ -85,11 +85,11 @@
         <equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
         <equipment slot="Item1" id="Item.khuzait_sword_5_t4" />
         <equipment slot="Item2" id="Item.thamaskene_pike_t4" />
-        <equipment slot="Head" id="Item.khuzait_noble_helmet_with_feathers" />
-        <equipment slot="Cape" id="Item.lamellar_shoulders" />
-        <equipment slot="Body" id="Item.eastern_lamellar_armor" />
-        <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
-        <equipment slot="Leg" id="Item.decorated_imperial_boots" />
+        <equipment slot="Head" id="Item.eastern_vendel_helmet" />
+        <equipment slot="Cape" id="Item.a_brass_lamellar_shoulder_white_b" />
+        <equipment slot="Body" id="Item.khuzait_heavy_armor" />
+        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
       </EquipmentRoster>
       <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
     </Equipments>
@@ -161,7 +161,7 @@
       <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="khuzait_widow_b_t5" name="{=khuzait_widow_b_t5}Onna-musha" level="26"
+  <NPCCharacter id="khuzait_widow_b_t5" name="{=khuzait_widow_b_t5}Besshikime" level="26"
   default_group="HorseArcher" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
   skill_template="SkillSet.khuzait_widow_b_t5_template" upgrade_requires="ItemCategory.war_horse">
     <face><face_key_template value="BodyProperty.body_khuzait_widow" /></face>
@@ -185,7 +185,7 @@
       <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="khuzait_widow_b_t6" name="{=khuzait_widow_b_t6}Elite Onna-musha" level="31"
+  <NPCCharacter id="khuzait_widow_b_t6" name="{=khuzait_widow_b_t6}Onna-musha" level="31"
   default_group="HorseArcher" occupation="Mercenary" culture="Culture.mercenary_widows" is_female="true" 
   skill_template="SkillSet.khuzait_widow_b_t6_template" upgrade_requires="ItemCategory.war_horse">
     <face><face_key_template value="BodyProperty.body_khuzait_widow" /></face>
@@ -195,12 +195,12 @@
         <equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
         <equipment slot="Item1" id="Item.composite_steppe_bow" />
         <equipment slot="Item2" id="Item.heavy_steppe_arrows" />
-        <equipment slot="Item3" id="Item.khuzait_sword_5_t4" />
-        <equipment slot="Head" id="Item.plumed_nomad_helmet" />
-        <equipment slot="Cape" id="Item.a_empire_plated_shoulder_a" />
-        <equipment slot="Body" id="Item.eastern_plated_leather" />
-        <equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
-        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Item3" id="Item.khuzait_noble_sword_3_t5" />
+        <equipment slot="Head" id="Item.khuzait_noble_helmet_with_feathers" />
+        <equipment slot="Cape" id="Item.lamellar_shoulders" />
+        <equipment slot="Body" id="Item.eastern_lamellar_armor" />
+        <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+        <equipment slot="Leg" id="Item.decorated_imperial_boots" />
         <equipment slot="Horse" id="Item.t3_khuzait_horse" />
         <equipment slot="HorseHarness" id="Item.steppe_half_barding" />
       </EquipmentRoster>
