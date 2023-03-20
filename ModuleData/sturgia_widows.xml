@@ -161,7 +161,7 @@
   skill_template="SkillSet.sturgia_widow_b_t5_template">
     <face><face_key_template value="BodyProperty.body_sturgia_widow" /></face>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.sturgia_widow_a_t6" />
+      <upgrade_target id="NPCCharacter.sturgia_widow_b_t6" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
