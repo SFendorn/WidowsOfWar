@@ -114,7 +114,7 @@
   </NPCCharacter>
 <!-- b -->
   <NPCCharacter id="battania_widow_b_t2" name="{=battania_widow_b_t2}Poacher" level="11"
-  default_group="Ranged" occupation="Bandit" culture="Culture.bandit_widows" is_basic_troop="true" is_female="true" 
+  default_group="Ranged" occupation="Bandit" culture="Culture.bandit_widows" is_female="true" 
   skill_template="SkillSet.battania_widow_b_t2_template">
     <face><face_key_template value="BodyProperty.body_battania_widow" /></face>
     <upgrade_targets>

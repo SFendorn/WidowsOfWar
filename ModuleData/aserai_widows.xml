@@ -109,7 +109,7 @@
   </NPCCharacter>
 <!-- b -->
   <NPCCharacter id="aserai_widow_b_t2" name="{=aserai_widow_b_t2}Urchin" level="11"
-  default_group="Infantry" occupation="Bandit" culture="Culture.bandit_widows" is_basic_troop="true" is_female="true" 
+  default_group="Infantry" occupation="Bandit" culture="Culture.bandit_widows" is_female="true" 
   skill_template="SkillSet.aserai_widow_b_t2_template">
     <face><face_key_template value="BodyProperty.body_aserai_widow" /></face>
     <upgrade_targets>

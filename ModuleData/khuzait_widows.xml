@@ -96,7 +96,7 @@
   </NPCCharacter>
 <!-- b -->
   <NPCCharacter id="khuzait_widow_b_t2" name="{=khuzait_widow_b_t2}Pickpocket" level="11"
-  default_group="Ranged" occupation="Bandit" culture="Culture.bandit_widows" is_basic_troop="true" is_female="true" 
+  default_group="Ranged" occupation="Bandit" culture="Culture.bandit_widows" is_female="true" 
   skill_template="SkillSet.khuzait_widow_b_t2_template">
     <face><face_key_template value="BodyProperty.body_khuzait_widow" /></face>
     <upgrade_targets>

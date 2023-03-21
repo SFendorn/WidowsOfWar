@@ -107,7 +107,7 @@
   </NPCCharacter>
 <!-- b -->
   <NPCCharacter id="empire_widow_b_t2" name="{=empire_widow_b_t2}Wayfarer" level="11"
-  default_group="Infantry" occupation="Bandit" culture="Culture.bandit_widows" is_basic_troop="true" is_female="true" 
+  default_group="Infantry" occupation="Bandit" culture="Culture.bandit_widows" is_female="true" 
   skill_template="SkillSet.empire_widow_b_t2_template">
     <face><face_key_template value="BodyProperty.body_empire_widow" /></face>
     <upgrade_targets>
