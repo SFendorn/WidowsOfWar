@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.Actions;
 using TaleWorlds.CampaignSystem.Party;
+using TaleWorlds.CampaignSystem.Settlements;
 using TaleWorlds.Core;
 using TaleWorlds.Localization;
 
@@ -9,6 +11,55 @@ namespace WidowsOfWar
 {
     public static class RecruitModel
     {
+        private static Dictionary<string, bool> settlementBasicRecruitReplacer = new Dictionary<string, bool>();
+        private static Dictionary<string, bool> settlementEliteRecruitReplacer = new Dictionary<string, bool>();
+
+        public static void SyncData(IDataStore dataStore)
+        {
+            dataStore.SyncData("WidowSettlementBasicRecruitReplacer", ref settlementBasicRecruitReplacer);
+            dataStore.SyncData("WidowSettlementEliteRecruitReplacer", ref settlementEliteRecruitReplacer);
+        }
+
+        public static void SetBasicRecruitmentReplacer(Settlement settlement, bool enable)
+        {
+            settlementBasicRecruitReplacer[settlement.StringId] = enable;
+        }
+
+        public static void SetEliteRecruitmentReplacer(Settlement settlement, bool enable)
+        {
+            settlementEliteRecruitReplacer[settlement.StringId] = enable;
+        }
+
+        public static bool IsBasicRecruitReplacementEnabled(Settlement settlement)
+        {
+            return settlementBasicRecruitReplacer.TryGetValue(settlement.StringId, out bool enable) && enable;
+        }
+
+        public static bool IsEliteRecruitReplacementEnabled(Settlement settlement)
+        {
+            return settlementEliteRecruitReplacer.TryGetValue(settlement.StringId, out bool enable) && enable;
+        }
+
+        public static CharacterObject GetBasicTroop(Settlement settlement, bool replacement)
+        {
+            return replacement ? GetTroopType(settlement.Culture.GetCultureCode(), false) : settlement.Culture.BasicTroop;
+        }
+
+        public static CharacterObject GetEliteTroop(Settlement settlement, bool replacement)
+        {
+            return replacement ? GetTroopType(settlement.Culture.GetCultureCode(), true) : settlement.Culture.EliteBasicTroop;
+        }
+
+        public static CharacterObject GetActiveBasicRecruit(Settlement settlement)
+        {
+            return GetBasicTroop(settlement, IsBasicRecruitReplacementEnabled(settlement));
+        }
+
+        public static CharacterObject GetActiveEliteRecruit(Settlement settlement)
+        {
+            return GetEliteTroop(settlement, IsEliteRecruitReplacementEnabled(settlement));
+        }
+
         public static bool CanBuyTroops(CharacterObject troopType, int available, int cost_multiplier, string textVariableSuffix = "")
         {
             if (0 < available)
@@ -73,5 +124,29 @@ namespace WidowsOfWar
             }
         }
 
+        public static bool IsInTroopTree(CharacterObject target, CharacterObject current)
+        {
+            if (target == current)
+                return true;
+
+            foreach (var elem in current.UpgradeTargets)
+            {
+                if (IsInTroopTree(target, elem))
+                    return true;
+            }
+            return false;
+        }
+
+        public static CharacterObject UpgradeToTier(CharacterObject troop, int tier)
+        {
+            while (troop.Tier < tier)
+            {
+                if (troop.UpgradeTargets.IsEmpty())
+                    return troop;
+
+                troop = troop.UpgradeTargets[MBRandom.RandomInt(troop.UpgradeTargets.Length)];
+            }
+            return troop;
+        }
     }
 }

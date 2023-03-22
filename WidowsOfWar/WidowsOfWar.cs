@@ -21,6 +21,7 @@ namespace WidowsOfWar
             {
                 campaignGameStarter.AddBehavior(new VillageRecruitBehavior());
                 campaignGameStarter.AddBehavior(new TownRecruitBehavior());
+                campaignGameStarter.AddBehavior(new NotableRecruitBehavior());
             }
         }
     }

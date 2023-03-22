@@ -263,6 +263,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlleyModelPatch.cs" />
+    <Compile Include="NotableRecruitBehavior.cs" />
+    <Compile Include="NotableRecruitBehaviorPatch.cs" />
     <Compile Include="RecruitModel.cs" />
     <Compile Include="RefugeModel.cs" />
     <Compile Include="TownRecruitBehavior.cs" />
