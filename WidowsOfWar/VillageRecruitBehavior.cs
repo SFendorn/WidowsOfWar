@@ -138,7 +138,7 @@ namespace WidowsOfWar
                             if (currentRecruits == 0)
                                 return 0;
 #if DEBUG
-                        if (0 < distributed)
+                        if (0 < add)
                             InformationManager.DisplayMessage(new InformationMessage(add.ToString() + " " + troop.ToString() + " from " + settlement.ToString() + " have been taken prisoner by bandit parties."));
 #endif
                         }
