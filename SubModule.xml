@@ -6,10 +6,10 @@
   <MultiplayerModule value="false"/>
     <DependedModules>
     <DependedModule DependentVersion="v2.2.2.88" Id="Bannerlord.Harmony" />
-    <DependedModule DependentVersion="v1.1.1" Id="Native" />
-    <DependedModule DependentVersion="v1.1.1" Id="SandBoxCore" />
-    <DependedModule DependentVersion="v1.1.1" Id="Sandbox" />
-    <DependedModule DependentVersion="v1.1.1" Id="StoryMode" />
+    <DependedModule DependentVersion="v1.1.2" Id="Native" />
+    <DependedModule DependentVersion="v1.1.2" Id="SandBoxCore" />
+    <DependedModule DependentVersion="v1.1.2" Id="Sandbox" />
+    <DependedModule DependentVersion="v1.1.2" Id="StoryMode" />
   </DependedModules>
   <SubModules>
     <SubModule>
