@@ -119,23 +119,15 @@ namespace WidowsOfWar
 
         private int GetWidowsRefugeEstablishCost(Hero hero)
         {
-            int cost = 5000;
-            if (hero.IsNotable)
-            {
-                if (300 < hero.Power)
-                    cost = cost * 60 / 100;
-                else if (250 < hero.Power)
-                    cost = cost * 70 / 100;
-                else if (200 < hero.Power)
-                    cost = cost * 80 / 100;
-                else if (100 < hero.Power)
-                    cost = cost * 90 / 100;
-            }
+            int cost = 2500;
+            float modifier = 1f;
+            if (hero.CurrentSettlement.OwnerClan == Clan.PlayerClan)
+                modifier -= 0.2f;
             if (hero.CurrentSettlement.IsStarving)
-                cost = cost * 120 / 100;
+                modifier += 0.2f;
             if (hero.CurrentSettlement.IsBooming)
-                cost = cost * 90 / 100;
-            return cost;
+                modifier -= 0.1f;
+            return (int)(cost * modifier);
         }
     }
 }
