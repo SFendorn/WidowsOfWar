@@ -23,6 +23,7 @@ namespace WidowsOfWar
         {
             CampaignEvents.OnSessionLaunchedEvent.AddNonSerializedListener(this, new Action<CampaignGameStarter>(AddRecruitMenu));
             CampaignEvents.DailyTickSettlementEvent.AddNonSerializedListener(this, new Action<Settlement>(DailyUpdateVillageRecruits));
+            CampaignEvents.OnSettlementLeftEvent.AddNonSerializedListener(this, new Action<MobileParty, Settlement>(OnVillagerPartyLeftSettlement));
         }
 
         public override void SyncData(IDataStore dataStore)
@@ -67,6 +68,23 @@ namespace WidowsOfWar
             obj.AddGameMenu("village_survivors", "As you look around the rubble and destroyed houses, you find some women gathering all sorts of improvised weapons. There teary eyes look hollow, but you can feel their determination.", args => { }, GameOverlays.MenuOverlayType.None, GameMenu.MenuFlags.None, null);
             obj.AddGameMenuOption("village_survivors", "recruit_widows", "Recruit {WIDOW_COUNT} {WIDOW_NAME} ({WIDOW_TOTAL_COST}{GOLD_ICON})", new GameMenuOption.OnConditionDelegate(OnConditionVillageRecruitWidows), new GameMenuOption.OnConsequenceDelegate(OnConsequenceVillageRecruitWidows), false, 0, false);
             obj.AddGameMenuOption("village_survivors", "leave_village", "Leave them be", new GameMenuOption.OnConditionDelegate(OnConditionLeave), args => GameMenu.SwitchToMenu("village_looted"));
+        }
+
+        public void OnVillagerPartyLeftSettlement(MobileParty party, Settlement settlement)
+        {
+            if (settlement.IsVillage && party.IsVillager)
+            {
+                CharacterObject villager = RecruitModel.GetVillagerType(settlement.Culture.GetCultureCode());
+                if (!party.MemberRoster.Contains(villager))
+                {
+                    int swap = (int)(party.MemberRoster.Count * MBRandom.RandomFloatRanged(0.10f, 0.25f));
+                    if (0 < swap)
+                    {
+                        party.MemberRoster.RemoveTroop(party.MemberRoster.GetCharacterAtIndex(0), swap);
+                        party.MemberRoster.AddToCounts(villager, swap);
+                    }
+                }
+            }
         }
 
         private bool OnConditionLookForSurvivors(MenuCallbackArgs args)

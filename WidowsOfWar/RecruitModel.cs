@@ -103,6 +103,20 @@ namespace WidowsOfWar
             }
         }
 
+        public static CharacterObject GetVillagerType(CultureCode cultureCode)
+        {
+            switch (cultureCode)
+            {
+                case CultureCode.Aserai: return CharacterObject.Find("villager_aserai_widow");
+                case CultureCode.Battania: return CharacterObject.Find("villager_battania_widow");
+                default:
+                case CultureCode.Empire: return CharacterObject.Find("villager_empire_widow");
+                case CultureCode.Khuzait: return CharacterObject.Find("villager_khuzait_widow");
+                case CultureCode.Sturgia: return CharacterObject.Find("villager_sturgia_widow");
+                case CultureCode.Vlandia: return CharacterObject.Find("villager_vlandia_widow");
+            }
+        }
+
         public static CharacterObject GetAlleyTroopTypeReplacement(CharacterObject character, CultureObject settlementCulture)
         {
             switch (character.StringId)
