@@ -125,8 +125,6 @@ namespace WidowsOfWar
                 modifier -= 0.2f;
             if (hero.CurrentSettlement.IsStarving)
                 modifier += 0.2f;
-            if (hero.CurrentSettlement.IsBooming)
-                modifier -= 0.1f;
             return (int)(cost * modifier);
         }
     }
